@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
+  name = "Jan Stocker"
   description = "My Portfolio"
   # email = "your@email.com"
 
@@ -51,7 +51,7 @@ googleAnalytics = ""
     #logo = "logo.svg"
     services = "Services"
     portfolio = "Portfolio"
-    about = "About"
+    experience = "Experience"
     team = "Team"
     contact = "Contact"
 
@@ -125,34 +125,34 @@ googleAnalytics = ""
 
 
     # About section
-  [params.about]
+  [params.experience]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Experience"
+    subtitle = "Timeline of My Experience"
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/about'.
+    # All images are stored under 'static/img/experience'.
     # Replace them with your own.
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "1.jpg"
       date = "2009-2011"
       title = "Our Humble Beginnings"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "2.jpg"
       date = "March 2011"
       title = "An Agency is Born"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "3.jpg"
       date = "December 2012"
       title = "Our Humble Beginnings"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
-    [[params.about.events]]
+    [[params.experience.events]]
       img = "4.jpg"
       date = "July 2014"
       title = "Phase Two Expansion"
