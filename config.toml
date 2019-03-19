@@ -50,8 +50,8 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Portfolio"
     experience = "Experience"
+    portfolio = "Portfolio"
     team = "Team"
     contact = "Contact"
 
@@ -107,6 +107,42 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
+
+    # About section
+  [params.experience]
+    enable = true
+    title = "Experience"
+    subtitle = "Timeline of My Experience"
+    startpoint = "Be part<br>of my<br>Timeline!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/experience'.
+    # Replace them with your own.
+    [[params.experience.events]]
+      img = "1.jpg"
+      date = "October 2018 - December 2018"
+      title = "Language School"
+      description = "After graduating from FHWN, I went to San Francisco and joined a language School."
+
+    [[params.experience.events]]
+      img = "2.jpg"
+      date = "September 2015 - September 2018"
+      title = "BSc in Electrical Engineering and Information Technology"
+      description = "During my full time studies at FHNW in Brugg-Windisch, I acquired the fundamental knowledge in electronics and could apply the learned in semester projects. Highlights during this time were the **grade 6.0** for the Bachelor’s Thesis and an **average mark of 5.2** over the whole studies."
+
+    [[params.experience.events]]
+      img = "3.jpg"
+      date = "August 2015 - September 2017"
+      title = "Seasonal Job"
+      description = "During my studies I had various seasonal jobs at the Paul Scherrer Institute. I improved my final work of the apprenticeship or wrote a software to produce calibration certificates."
+
+    [[params.experience.events]]
+      img = "4.jpg"
+      date = "August 2011 - August 2015"
+      title = "Apprenticeship Electronics Technician"
+      description = "After the compulsory school I started my apprenticeship in electronics at the Paul Scherrer Institute in Villigen. During my apprenticeship, I simultaneously attended the professional baccalaureate."
+
+
   # Portfolio section
   [params.portfolio]
     enable = true
@@ -122,41 +158,6 @@ googleAnalytics = ""
       date = "Date"
       category = "Category"
       buttonText = "Close project"
-
-
-    # About section
-  [params.experience]
-    enable = true
-    title = "Experience"
-    subtitle = "Timeline of My Experience"
-    endpoint = "Be part<br>of our<br>story!"
-
-    # The events will be listed from the top to the bottom.
-    # All images are stored under 'static/img/experience'.
-    # Replace them with your own.
-    [[params.experience.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.experience.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.experience.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.experience.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
@@ -210,6 +211,7 @@ She worked at Pied Piper for years until they went belly up."""
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
+
 
   # Client section
     [params.clients_list]
