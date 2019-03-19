@@ -49,7 +49,8 @@ googleAnalytics = ""
     brand = "Jan Stocker"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
+    about = "About"
+    skills = "Skills"
     experience = "Experience"
     portfolio = "Portfolio"
     team = "Team"
@@ -80,28 +81,62 @@ googleAnalytics = ""
     subtitle = "It's nice to meet you"
     buttonText = "Tell me more"
 
-
-  # Services section
-  [params.services]
+  # About section
+  [params.about]
     enable = true
-    title = "Services"
+    
+    # Place this image in the static/img folder
+    avatar = "about.jpg"
+    subtitle = "Hi! I'm Noah, an electrical engineer from Zurich, Switzerland."
+
+    # Each element in this array makes a new <p> tag
+    # You can write this text in markdown
+    about_right = ["Highly motivated and hardworking **Electrical Engineering** student with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.",
+    "I currently **study** Electrical Engineering and Information Technology in the Master's degree programme at ETH Zurich.",
+    "In my **free time** the fascination of Electronics motivates me to pursue private projects and finance my coffee consumption on freelance colaborations.",
+    "Please enjoy the rest of my website."]
+
+    # Link to your resume, place your PDF in the /static folder
+    # resume = "resume.pdf"
+
+    # Email
+    email = "noah@beeblebrox.ch"
+
+    # Facebook username
+    facebook = "https://www.facebook.com/profile.php?id=100012645461001"
+
+    # Twitter username
+    twitter = "https://twitter.com/Klavierler"
+
+    # LinkedIn URL
+    linkedin = "https://www.linkedin.com/in/noah-h%C3%BCtter-4a8852150/"
+    
+    # Medium username
+    github = "https://github.com/noah95"
+
+
+
+  # Skills section
+  [params.skills]
+    enable = true
+    title = "Skills"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
-    [[params.services.row]]
+    [[params.skills.row]]
 
-    [[params.services.row.list]]
+    [[params.skills.row.list]]
       icon = "fa-shopping-cart"
       title = "E-Commerce"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
-    [[params.services.row.list]]
+    [[params.skills.row.list]]
       icon = "fa-laptop"
       title = "Responsive Design"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
-    [[params.services.row.list]]
+    [[params.skills.row.list]]
       icon = "fa-lock"
       title = "Web"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
@@ -186,26 +221,6 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
