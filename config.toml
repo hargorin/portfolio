@@ -84,35 +84,39 @@ googleAnalytics = ""
   # About section
   [params.about]
     enable = true
-    
-    # Place this image in the static/img folder
-    avatar = "about.jpg"
-    subtitle = "Hi! I'm Noah, an electrical engineer from Zurich, Switzerland."
+    # Possibility to center items
+    #center = true
+    title = "Hi! I'm Jan, an electrical engineer from Zurich, Switzerland."
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
-    # Each element in this array makes a new <p> tag
-    # You can write this text in markdown
-    about_right = ["Highly motivated and hardworking **Electrical Engineering** student with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.",
-    "I currently **study** Electrical Engineering and Information Technology in the Master's degree programme at ETH Zurich.",
-    "In my **free time** the fascination of Electronics motivates me to pursue private projects and finance my coffee consumption on freelance colaborations.",
-    "Please enjoy the rest of my website."]
+    # The picture is stored under 'static/img/about'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.about.members]]
+      img = "1.jpg"
+      name = "Jan Stocker"
+      #position = "Lead Designer"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      # scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      #   "Open Source [community management](#)"
+      # ]
 
-    # Link to your resume, place your PDF in the /static folder
-    # resume = "resume.pdf"
-
-    # Email
-    email = "noah@beeblebrox.ch"
-
-    # Facebook username
-    facebook = "https://www.facebook.com/profile.php?id=100012645461001"
-
-    # Twitter username
-    twitter = "https://twitter.com/Klavierler"
-
-    # LinkedIn URL
-    linkedin = "https://www.linkedin.com/in/noah-h%C3%BCtter-4a8852150/"
-    
-    # Medium username
-    github = "https://github.com/noah95"
+      # For bio markdown and even multiline strings are available.
+      bio = """Highly motivated and hardworking **Electrical Engineering** student with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
+    I currently **study** Electrical Engineering and Information Technology in the Master's degree programme at ETH Zurich.
+    In my **free time** the fascination of Electronics motivates me to pursue private projects and finance my coffee consumption on freelance colaborations.
+Please enjoy the rest of my website."""
+      social = [
+        ["fa-envelope", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
+        ["fa-github", "https://github.com/hargorin"],
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"]      
+      ]
 
 
 
@@ -230,38 +234,6 @@ googleAnalytics = ""
       category = "Category"
       buttonText = "Close project"
 
-
-  # Team section
-  [params.team]
-    enable = true
-    # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
-
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
 
   # Client section

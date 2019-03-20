@@ -1,48 +1,57 @@
-{{ "<!-- About -->" | safeHTML }}
-<section id="about">
-    <div class="about">
-        <div class="about-left">
-            <img src="img/{{ .Site.Params.About.Avatar }}" style="max-width: 50%; border-radius: 50%; ">
-            <h2 class="subtitle">{{ .Site.Params.About.subtitle }}</h2>
-            
-            <div class="icons">
-                {{ if isset .Site.Params.About "email" }}
-                    <a href="mailto:{{ .Site.Params.About.email }}">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                {{ end }}
-                {{ if isset .Site.Params.About "facebook" }}
-                    <a href="{{ .Site.Params.About.facebook }}" target="blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                {{ end }}
-                {{ if isset .Site.Params.About "linkedin" }}
-                    <a href="{{ .Site.Params.About.linkedin }}" target="blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                {{ end }}
-                {{ if isset .Site.Params.About "github" }}
-                    <a href="{{ .Site.Params.About.github }}" target="blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                {{ end }}
-                {{ if isset .Site.Params.About "twitter" }}
-                    <a href="{{ .Site.Params.About.twitter }}" target="blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                {{ end }}
-            </div>
-
-            {{ if isset .Site.Params.About "resume" }}
-            <a href="{{ .Site.Params.About.Resume }}" target="blank" class="download-resume" onclick="ga('send', {hitType: 'event',eventCategory: 'CTA',eventAction: 'download'});">
-                <img style="position: relative;top: 1.8px;padding-right: 6px;" src="svg/dl-resume.svg">
-                Download Resume</a>
-            {{ end }}
-        </div>
-        <div class="about-right">
-            {{ range $paragraph := .Site.Params.About.about_right }}
-                <p>{{ $paragraph | markdownify }}</p>
-            {{ end }}
-        </div>
+{{ "<!-- About Section -->" | safeHTML }}
+<section id="about" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+<!--         <h3 class="section-subheading text-mutedwith ">{{ with .Site.Params.about.subtitle }}{{ . | markdownify }}{{ end }}</h3> -->
+      </div>
     </div>
+<!--     <div class="row flexbox{{ if .Site.Params.about.center }} flexbox-center{{ end }}"> -->
+      {{ range .Site.Params.about.members }}
+        <div class="col-sm-6 col">
+            <div class="about-member">
+              {{ $url := printf "img/about/%s" .img }}
+              <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+              <h3>{{ .name | markdownify }}</h3>
+
+              {{ with .position }}
+              <h4>{{ . | markdownify }}</h4>
+              {{ end }}
+              {{ with .reportsTo }}
+              <h5 class="report">Reports to {{ . | markdownify }}</h5>
+              {{ end }}
+
+              {{ with .livesIn }}
+              <h5>Lives in {{ . | markdownify }}</h5>
+              {{ end }}
+
+              {{ with .scope }}
+              <ul>
+                {{ range . }}
+                  <li>{{ . | markdownify }}</li>
+                {{ end }}
+              </ul>
+              {{ end }}
+
+              <ul class="list-inline social-buttons">
+                {{ range .social }}
+                  <li><a href="{{ index . 1 }}"><i class="fa {{ index . 0 }}"></i></a></li>
+                {{ end }}
+              </ul>
+            </div>   
+        </div>   
+        <div class="col-sm-6 col">    
+              {{ with .bio }}
+              <p class="about-bio">{{ . | markdownify }}</p>
+              {{ end }}
+        </div>
+      {{ end }}
+<!--     </div> -->
+<!--     <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <p class="large text-muted">{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</p>
+      </div>
+    </div> -->
+  </div>
 </section>
