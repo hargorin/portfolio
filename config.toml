@@ -120,27 +120,63 @@ googleAnalytics = ""
   [params.skills]
     enable = true
     title = "Skills"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle1 = "From professional..."
+    subtitle2 = "...to social"
 
-    [[params.skills.row]]
+    [[params.skills.row1]]
 
-    [[params.skills.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    [[params.skills.row1.list]]
+      icon = "fab fa-linux"
+      title = "Embedded"
+      description = "Embedded system development and mixed signal processing on DSPs using bare metal C and Real time operation systems on Microchip, ARM and other platforms such as Wandboard or Raspberry Pi."
       url = "#"
 
-    [[params.skills.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    [[params.skills.row1.list]]
+      icon = "fas fa-microchip"
+      title = "FPGA"
+      description = "Experience in FPGA design using hardware description language and High-level synthesis. Application in image processing and control systems."
       url = "#"
 
-    [[params.skills.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    [[params.skills.row1.list]]
+      icon = "fas fa-bolt"
+      title = "Electronics"
+      description = "Analog hardware development skills form circuit design to testing and validation until production. Circuit prototyping using Matlab, Spice, Mentor Graphics or Eagle."
       url = "#"
+
+    [[params.skills.row1]]
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-laptop"
+      title = "Software"
+      description = "Cross-platform GUI software development in C++ and Java. Furthermore, calculations or GUI development in Matlab."
+      url = "#"
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-code-branch"
+      title = "Team"
+      description = "Versatile source code management using git version control."
+      url = "#"
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-book"
+      title = "Documentation"
+      description = "Experience in LaTeX for documentation and papers."
+      url = "#"
+
+    [[params.skills.row2]]
+
+    [[params.skills.row2.list]]
+      icon = "fas fa-sitemap"
+      title = "Management"
+      description = "President of organizing committee for local gymnastics tournament."
+      url = "#"
+
+    [[params.skills.row2.list]]
+      icon = "fas fa-users"
+      title = "Teamwork"
+      description = "Experience as project leader and team member. "
+      url = "#"
+
 
 
     # About section
