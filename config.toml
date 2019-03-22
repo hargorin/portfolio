@@ -265,7 +265,7 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    title = "Contact me"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
     # netlify = true
