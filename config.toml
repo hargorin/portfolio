@@ -53,7 +53,6 @@ googleAnalytics = ""
     skills = "Skills"
     experience = "Experience"
     projects = "Projects"
-    team = "Team"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -124,8 +123,8 @@ googleAnalytics = ""
   [params.skills]
     enable = true
     title = "Skills"
-    subtitle1 = "From professional..."
-    subtitle2 = "...to social"
+    subtitle1 = "From Professional..."
+    subtitle2 = "...To Social"
 
     [[params.skills.row1]]
 
@@ -138,7 +137,7 @@ googleAnalytics = ""
     [[params.skills.row1.list]]
       icon = "fas fa-microchip"
       title = "FPGA"
-      description = "Experience in FPGA design using hardware description language and High-level synthesis. Application in image processing and control systems."
+      description = "Experience in FPGA design using hardware description language and High-Level Synthesis. Application in image processing and control systems."
       url = "#"
 
     [[params.skills.row1.list]]
@@ -156,7 +155,7 @@ googleAnalytics = ""
       url = "#"
 
     [[params.skills.row1.list]]
-      icon = "fas fa-code-branch"
+      icon = "fab fa-git"
       title = "Team"
       description = "Versatile source code management using git version control."
       url = "#"
@@ -172,13 +171,13 @@ googleAnalytics = ""
     [[params.skills.row2.list]]
       icon = "fas fa-sitemap"
       title = "Management"
-      description = "President of organizing committee for local gymnastics tournament."
+      description = "On the board of the local gymnastic club."
       url = "#"
 
     [[params.skills.row2.list]]
       icon = "fas fa-users"
       title = "Teamwork"
-      description = "Experience as project leader and team member. "
+      description = "Experience as project leader and team member in different projects."
       url = "#"
 
 
@@ -329,25 +328,30 @@ googleAnalytics = ""
     enable = true
     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   link = "#"
+    #   title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   link = "#"
+    #   title = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/in/jan-stocker-70317117a/"
       title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/hargorin"
+      title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
+
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"
