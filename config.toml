@@ -86,8 +86,8 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Hi! I'm Jan, an electrical engineer from Zurich, Switzerland."
-    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Hi, I'am Jan"
+    subtitle = "An Electrical Engineer from Zurich, Switzerland"
     #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # The picture is stored under 'static/img/about'.
@@ -106,10 +106,10 @@ googleAnalytics = ""
       # ]
 
       # For bio markdown and even multiline strings are available.
-      bio = """Highly motivated and hardworking **Electrical Engineering** student with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
-    I currently **study** Electrical Engineering and Information Technology in the Master's degree programme at ETH Zurich.
-    In my **free time** the fascination of Electronics motivates me to pursue private projects and finance my coffee consumption on freelance colaborations.
-Please enjoy the rest of my website."""
+      bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
+                \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
+                \n I currently **search a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
+                \n Please enjoy the rest of my website."""
       social = [
         ["fa-envelope", "#"],
         ["fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
