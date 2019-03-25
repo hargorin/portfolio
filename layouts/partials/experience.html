@@ -10,6 +10,12 @@
     <div class="row">
       <div class="col-lg-12">
         <ul class="timeline">
+          
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>{{ with .Site.Params.experience.startpoint }}{{ . | markdownify }}{{ end }}</h4>
+            </div>
+          </li>
 
           {{ range $i, $e := .Site.Params.experience.events }}
             <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
@@ -29,11 +35,6 @@
             </li>
           {{ end }}
 
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>{{ with .Site.Params.experience.endpoint }}{{ . | markdownify }}{{ end }}</h4>
-            </div>
-          </li>
         </ul>
       </div>
     </div>

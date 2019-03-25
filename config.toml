@@ -49,10 +49,10 @@ googleAnalytics = ""
     brand = "Jan Stocker"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
+    about = "About"
+    skills = "Skills"
     experience = "Experience"
-    team = "Team"
+    projects = "Projects"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -80,48 +80,106 @@ googleAnalytics = ""
     subtitle = "It's nice to meet you"
     buttonText = "Tell me more"
 
-
-  # Services section
-  [params.services]
+  # About section
+  [params.about]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    # Possibility to center items
+    #center = true
+    title = "Hi, I'am Jan"
+    subtitle = "An Electrical Engineer from Zurich, Switzerland"
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
-    [[params.services.row]]
+    # The picture is stored under 'static/img/about'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.about.members]]
+      img = "about_jan_400.jpg"
+      name = "Jan Stocker"
+      #position = "Lead Designer"
+      #reportsTo = "CTO"
+      #livesIn = "[Munich, Germany](#some-maps-url)"
+      # scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      #   "Open Source [community management](#)"
+      # ]
 
-    [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      # For bio markdown and even multiline strings are available.
+      bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
+                \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
+                \n I currently **search a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
+                \n Please enjoy the rest of my website."""
+      social = [
+        ["fa-envelope", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
+        ["fa-github", "https://github.com/hargorin"],
+        #["fa-twitter", "#"],
+        #["fa-facebook", "#"]      
+      ]
 
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
 
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
 
-  # Portfolio section
-  [params.portfolio]
+  # Skills section
+  [params.skills]
     enable = true
-    # All projects defined in their own files. You can find example projects
-    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-    # at the root of this Hugo site.
-    # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Skills"
+    subtitle1 = "From Professional..."
+    subtitle2 = "...To Social"
 
-    [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+    [[params.skills.row1]]
+
+    [[params.skills.row1.list]]
+      icon = "fab fa-linux"
+      title = "Embedded"
+      description = "Embedded system development and mixed signal processing on DSPs using bare metal C and Real time operation systems on Microchip, ARM and other platforms such as Wandboard or Raspberry Pi."
+      url = "#"
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-microchip"
+      title = "FPGA"
+      description = "Experience in FPGA design using hardware description language and High-Level Synthesis. Application in image processing and control systems."
+      url = "#"
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-bolt"
+      title = "Electronics"
+      description = "Analog hardware development skills form circuit design to testing and validation until production. Circuit prototyping using Matlab, Spice, Mentor Graphics or Eagle."
+      url = "#"
+
+    [[params.skills.row1]]
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-laptop"
+      title = "Software"
+      description = "Cross-platform GUI software development in C++ and Java. Furthermore, calculations or GUI development in Matlab."
+      url = "#"
+
+    [[params.skills.row1.list]]
+      icon = "fab fa-git"
+      title = "Team"
+      description = "Versatile source code management using git version control."
+      url = "#"
+
+    [[params.skills.row1.list]]
+      icon = "fas fa-book"
+      title = "Documentation"
+      description = "Experience in LaTeX for documentation and papers."
+      url = "#"
+
+    [[params.skills.row2]]
+
+    [[params.skills.row2.list]]
+      icon = "fas fa-sitemap"
+      title = "Management"
+      description = "On the board of the local gymnastic club."
+      url = "#"
+
+    [[params.skills.row2.list]]
+      icon = "fas fa-users"
+      title = "Teamwork"
+      description = "Experience as project leader and team member in different projects."
+      url = "#"
+
 
 
     # About section
@@ -129,119 +187,74 @@ googleAnalytics = ""
     enable = true
     title = "Experience"
     subtitle = "Timeline of My Experience"
-    endpoint = "Be part<br>of our<br>story!"
+    startpoint = "Be part<br>of my<br>Timeline!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/experience'.
     # Replace them with your own.
     [[params.experience.events]]
-      img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "san_francisco.jpg"
+      date = "October 2018 - December 2018"
+      title = "Language School"
+      description = "After graduating from FHWN, I went to San Francisco and joined a language School."
 
     [[params.experience.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "thesis.jpg"
+      date = "September 2015 - September 2018"
+      title = "BSc in Electrical Engineering and Information Technology"
+      description = "During my full time studies at FHNW in Brugg-Windisch, I acquired the fundamental knowledge in electronics and could apply the learned in semester projects. Highlights during this time were the **grade 6.0** for the Bachelor’s Thesis and an **average mark of 5.2** over the whole studies."
 
     [[params.experience.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "code_on.jpg"
+      date = "August 2015 - September 2017"
+      title = "Seasonal Job"
+      description = "During my studies I had various seasonal jobs at the Paul Scherrer Institute. I improved my final work of the apprenticeship or wrote a software to produce calibration certificates."
 
     [[params.experience.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "apprenticeship.jpg"
+      date = "August 2011 - August 2015"
+      title = "Apprenticeship Electronics Technician"
+      description = "After the compulsory school I started my apprenticeship in electronics at the Paul Scherrer Institute in Villigen. During my apprenticeship, I simultaneously attended the professional baccalaureate."
 
 
-  # Team section
-  [params.team]
+  # Project section
+  [params.projects]
     enable = true
-    # Possibility to center items
-    #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Projects"
+    subtitle = "Selected Projects"
 
-    # All team member's pictures are stored under 'static/img/team'.
-    # Replace them with your own too.
-    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    [params.projects.modal]
+      project = "GitHub"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close Project"
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
 
   # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+    # [params.clients_list]
+    #   enable = true
+    #   # Possibility to center items
+    #   #center = true
+    #   # Optional client title specifying the involvement
+    #   #title = "Used and trusted by"
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+    #   # All the clients' logos are stored under 'static/img/logos'.
+    #   # Replace them with your clients's logos.
+    #   # Suggestion: .svg in the size of 280px*80px looks good
+    #   [[params.clients]]
+    #     logo = "envato.jpg"
+    #     link = "#"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
+    title = "Contact me"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
     # netlify = true
@@ -304,25 +317,30 @@ She worked at Pied Piper for years until they went belly up."""
     enable = true
     copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+    # [[params.footer.social]]
+    #   icon = "fa-twitter"
+    #   link = "#"
+    #   title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+    # [[params.footer.social]]
+    #   icon = "fa-facebook"
+    #   link = "#"
+    #   title = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://www.linkedin.com/in/jan-stocker-70317117a/"
       title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/hargorin"
+      title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+    #   text = "Privacy Policy"
+    #   link = "#"
+
+    # [[params.footer.quicklinks]]
+    #   text = "Terms of Use"
+    #   link = "#"

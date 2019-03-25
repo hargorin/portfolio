@@ -1,0 +1,10 @@
+modalID: 1
+title: FPGA for Enhanced Image Processing
+subtitle: Abstract
+date: 2018-08-16
+img: thesis.png
+preview: thesis.png
+project: diip
+projectLink: https://github.com/hargorin/diip
+category: Bachelor Thesis
+description: In the world of self-driving cars and virtual reality games it is becoming increasingly important to represent digitally what we see. Therefore, using high resolution cameras, images of the environment have been recorded. These large images are processed to be presented three dimensionally. This image processing task needs to be accelerated to get a fast work flow. A dedicated hardware approach using Field Programmable Gate Arrays (FPGA) was implemented that is scalable onto multiple FPGAs. <br><br> In a first approach High Level Synthesis was used to describe a Wallis local contrast enhancement filter in C/C++ language that was then synthesized to hardware description language. In order to further improve throughput a VHDL solution was implemented. A memory management unit was introduced to cache necessary image data to reduce Ethernet bandwidth usage. <br><br> The result is an image processing core and a file transfer protocol stack on top of the User Datagram Protocol (UDP) to transfer the images from a computer to the FPGA over gigabit Ethernet. The Wallis filter core processes data at a rate of one pixel per clock at 125MHz which corresponds to 125 megapixels per second. Studies on scalability show how the processing load can be distributed onto multiple FPGA on a local area network and benchmarks present the performance against CPU based image processing. <br><br> With some additions, workload distribution is possible. This study proves that a dedicated hardware approach for image processing is possible and will speed up the process of creating virtual representations of reality.

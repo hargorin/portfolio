@@ -35,15 +35,15 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.services.enable }}
+        {{ if .Site.Params.about.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
-        {{ if .Site.Params.portfolio.enable }}
+        {{ if .Site.Params.skills.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#skills">{{ with .Site.Params.navigation.skills }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
@@ -53,9 +53,9 @@
           </li>
         {{ end }}
 
-        {{ if .Site.Params.team.enable }}
+        {{ if .Site.Params.projects.enable }}
           <li>
-            <a class="page-scroll" href="{{ .Site.BaseURL }}#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
+            <a class="page-scroll" href="{{ .Site.BaseURL }}#projects">{{ with .Site.Params.navigation.projects }}{{ . }}{{ end }}</a>
           </li>
         {{ end }}
 
@@ -65,11 +65,11 @@
           </li>
         {{ end }}
 
-        {{ range .Site.Menus.postpend }}
+<!--         {{ range .Site.Menus.postpend }}
           <li>
             <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
-        {{ end }}
+        {{ end }} -->
       </ul>
     </div>
     {{ "<!-- /.navbar-collapse -->" | safeHTML }}

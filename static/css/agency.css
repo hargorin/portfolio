@@ -14,16 +14,16 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #fd7f22;
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a,
@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #fd7f22;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #f9c80e;
 }
 
 h1,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #fd7f22;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fd7f22;
 }
 
 .btn-primary:hover,
@@ -84,7 +84,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #f9c80e;
 }
 
 .btn-primary:active,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fd7f22;
+    background-color: #fd7f22;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #fd7f22;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #fd7f22;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fd7f22;
 }
 
 .btn-xl:hover,
@@ -136,7 +136,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #f9c80e;
 }
 
 .btn-xl:active,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fd7f22;
+    background-color: #fd7f22;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #fd7f22;
     background-color: #fff;
 }
 
@@ -176,14 +176,16 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #fd7f22;
+    /*color: #fed136;*/
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #f9c80e;
+    /*color: #fec503;*/
 }
 
 .navbar-brand>img {
@@ -213,8 +215,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fd7f22;
+    background-color: #fd7f22;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -223,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #fd7f22;
 }
 
 .navbar-default .nav li a {
@@ -237,19 +239,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #fd7f22;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fd7f22;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #f9c80e;
 }
 
 @media(min-width:768px) {
@@ -307,6 +309,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    /*color: #282828;*/
 }
 
 header .intro-text .intro-heading {
@@ -316,6 +319,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    /*color: #282828;*/
 }
 
 @media(min-width:768px) {
@@ -349,14 +353,14 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 46px;
 }
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     font-style: italic;
     font-weight: 400;
 }
@@ -367,28 +371,29 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.skills-heading {
     margin: 15px 0;
+    color: #fd7f22;
     text-transform: none;
 }
 
-#portfolio .portfolio-item {
+#projects .projects-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#projects .projects-item .projects-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link img {
+#projects .projects-item .projects-link img {
     height: 240px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#projects .projects-item .projects-link .projects-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -399,31 +404,31 @@ section h3.section-subheading {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#projects .projects-item .projects-link .projects-hover:hover {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#projects .projects-item .projects-link .projects-hover .projects-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+#projects .projects-item .projects-link .projects-hover .projects-hover-content i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+#projects .projects-item .projects-link .projects-hover .projects-hover-content h3,
+#projects .projects-item .projects-link .projects-hover .projects-hover-content h4 {
     margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#projects .projects-item .projects-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -431,24 +436,24 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#projects .projects-item .projects-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#projects .projects-item .projects-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-#portfolio * {
+#projects * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #portfolio .portfolio-item {
+    #projects .projects-item {
         margin: 0 0 30px;
     }
 }
@@ -519,7 +524,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #fd7f22;
 }
 
 .timeline>li .timeline-image h4 {
@@ -669,26 +674,26 @@ section h3.section-subheading {
   justify-content: center;
 }
 
-.team-member {
+.about-member {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.team-member img {
+.about-member img {
     margin: 0 auto;
     border: 7px solid #fff;
 }
 
-.team-member p {
+.about-member p {
     margin-top: 0;
 }
-.team-member h3 {
+.about-member h3 {
     text-transform: none;
     font-weight: 600;
     color: #333;
 }
 
-.team-member h4 {
+.about-member h4 {
     font-size: 16px;
     text-transform: none;
     font-weight: 400;
@@ -696,11 +701,11 @@ section h3.section-subheading {
     margin-bottom: 0px;
 }
 
-.team-member h4 a {
+.about-member h4 a {
     text-transform: none;
 }
 
-.team-member h5 {
+.about-member h5 {
     font-size: 14px;
     text-transform: none;
     font-style: italic;
@@ -709,15 +714,15 @@ section h3.section-subheading {
     margin-bottom: 15px
 }
 
-.team-member .report  {
+.about-member .report  {
     margin-top: 0px;
 }
 
-.team-member h5 a {
+.about-member h5 a {
     text-transform: none;
 }
 
-.team-member ul {
+.about-member ul {
     list-style: none;
     text-align: center;
     margin-top: 15px;
@@ -725,7 +730,7 @@ section h3.section-subheading {
     padding: 0;
 }
 
-.team-bio {
+.about-bio {
     padding: 15px
 }
 
@@ -775,7 +780,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #fd7f22;
     box-shadow: none;
 }
 
@@ -858,7 +863,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #fd7f22;
 }
 
 .btn:focus,
@@ -868,7 +873,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.projects-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -879,32 +884,32 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.projects-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
+.projects-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content p.item-intro {
+.projects-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
 }
 
-.portfolio-modal .modal-content ul.list-inline {
+.projects-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.projects-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .close-modal {
+.projects-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -914,11 +919,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.projects-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.projects-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -929,7 +934,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.projects-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -939,19 +944,19 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-.portfolio-modal .modal-backdrop {
+.projects-modal .modal-backdrop {
     display: none;
     opacity: 0;
 }
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fd7f22;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #fd7f22;
 }
 
 img::selection {
@@ -963,5 +968,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #fd7f22;
 }
