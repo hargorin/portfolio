@@ -18,7 +18,7 @@
               </div>
             </div>
             {{ $url := printf "img/projects/%s" .preview }}
-            <img src="{{ $url | absURL }}" class="img-responsive" alt="">
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
           </a>
           <div class="projects-caption">
             <h4>{{ .title | markdownify }}</h4>

@@ -93,7 +93,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.about.members]]
-      img = "about_jan.jpg"
+      img = "about_jan_400.jpg"
       name = "Jan Stocker"
       #position = "Lead Designer"
       #reportsTo = "CTO"
@@ -225,42 +225,31 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Projects"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Selected Projects"
 
     [params.projects.modal]
-      client = "Client"
+      project = "GitHub"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close Project"
 
 
 
   # Client section
-    [params.clients_list]
-      enable = true
-      # Possibility to center items
-      #center = true
-      # Optional client title specifying the involvement
-      #title = "Used and trusted by"
+    # [params.clients_list]
+    #   enable = true
+    #   # Possibility to center items
+    #   #center = true
+    #   # Optional client title specifying the involvement
+    #   #title = "Used and trusted by"
 
-      # All the clients' logos are stored under 'static/img/logos'.
-      # Replace them with your clients's logos.
-      # Suggestion: .svg in the size of 280px*80px looks good
-      [[params.clients]]
-        logo = "envato.jpg"
-        link = "#"
+    #   # All the clients' logos are stored under 'static/img/logos'.
+    #   # Replace them with your clients's logos.
+    #   # Suggestion: .svg in the size of 280px*80px looks good
+    #   [[params.clients]]
+    #     logo = "envato.jpg"
+    #     link = "#"
 
-      [[params.clients]]
-        logo = "designmodo.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "themeforest.jpg"
-        link = "#"
-
-      [[params.clients]]
-        logo = "creative-market.jpg"
-        link = "#"
 
   # Contact section
   [params.contact]
