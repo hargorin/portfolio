@@ -93,7 +93,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.about.members]]
-      img = "1.jpg"
+      img = "about_jan.jpg"
       name = "Jan Stocker"
       #position = "Lead Designer"
       #reportsTo = "CTO"
@@ -193,25 +193,25 @@ googleAnalytics = ""
     # All images are stored under 'static/img/experience'.
     # Replace them with your own.
     [[params.experience.events]]
-      img = "1.jpg"
+      img = "san_francisco.jpg"
       date = "October 2018 - December 2018"
       title = "Language School"
       description = "After graduating from FHWN, I went to San Francisco and joined a language School."
 
     [[params.experience.events]]
-      img = "2.jpg"
+      img = "thesis.jpg"
       date = "September 2015 - September 2018"
       title = "BSc in Electrical Engineering and Information Technology"
       description = "During my full time studies at FHNW in Brugg-Windisch, I acquired the fundamental knowledge in electronics and could apply the learned in semester projects. Highlights during this time were the **grade 6.0** for the Bachelor’s Thesis and an **average mark of 5.2** over the whole studies."
 
     [[params.experience.events]]
-      img = "3.jpg"
+      img = "code_on.jpg"
       date = "August 2015 - September 2017"
       title = "Seasonal Job"
       description = "During my studies I had various seasonal jobs at the Paul Scherrer Institute. I improved my final work of the apprenticeship or wrote a software to produce calibration certificates."
 
     [[params.experience.events]]
-      img = "4.jpg"
+      img = "apprenticeship.jpg"
       date = "August 2011 - August 2015"
       title = "Apprenticeship Electronics Technician"
       description = "After the compulsory school I started my apprenticeship in electronics at the Paul Scherrer Institute in Villigen. During my apprenticeship, I simultaneously attended the professional baccalaureate."
