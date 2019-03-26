@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://hargorin.ch/"
+baseURL = "https://hargorin.ch/"
 languageCode = "en-us"
 title = "Jan Stocker - Portfolio"
 theme = "hugo-agency-theme"
