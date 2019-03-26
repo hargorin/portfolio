@@ -12,8 +12,6 @@ git submodule update --init
 ```
 
 ## Inspiration
-Inspired by [Noah's portfolio site](https://beeblebrox.ch/).
-
 https://github.com/digitalcraftsman/hugo-agency-theme
 
 ## Develop
