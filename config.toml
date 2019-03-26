@@ -24,7 +24,7 @@ googleAnalytics = ""
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "favicon_cat.ico"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -107,7 +107,7 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
                 \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
-                \n I currently **search a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
+                \n I am currently **looking for a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
                 \n Please enjoy the rest of my website."""
       social = [
         ["fa-envelope", "#"],
