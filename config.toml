@@ -199,7 +199,7 @@ googleAnalytics = ""
       img = "san_francisco.jpg"
       date = "May 2019 - Today"
       title = "Software Engineer"
-      description = "I started my first job at PI Electronics AG as Software Engineer. I am well experienced in the interaction between FPGA, Real-Time Processor and Windows Application in LabVIEW. In order to achieve a good throughput I also use VHDL in combination with LabVIEW."
+      description = "I started my first full-time job at PI Electronics AG as Software Engineer. I am well experienced in the interaction between FPGA, Real-Time Processor and Windows Application in LabVIEW. In order to achieve a good throughput I also use VHDL in combination with LabVIEW."
 
     [[params.experience.events]]
       img = "san_francisco.jpg"
