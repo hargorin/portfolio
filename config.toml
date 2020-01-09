@@ -115,9 +115,7 @@ googleAnalytics = ""
       social = [
         ["fa-envelope", "#"],
         ["fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
-        ["fa-github", "https://github.com/hargorin"],
-        #["fa-twitter", "#"],
-        #["fa-facebook", "#"]      
+        ["fa-github", "https://github.com/hargorin"]  
       ]
 
 
