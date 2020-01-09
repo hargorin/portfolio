@@ -8,15 +8,6 @@ theme = "hugo-agency-theme"
 googleAnalytics = ""
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "Jan Stocker"
   description = "My Portfolio"
   # email = "your@email.com"
@@ -55,27 +46,14 @@ googleAnalytics = ""
     projects = "Projects"
     # contact = "Contact"
 
-    # Add custom links. Those can be pre- and postpended to the default menu above.
-    # Use the weight attribute to order your custom links. Uncomment the example
-    # below and replace the values with your own.
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
     # postpended links
     [[menu.postpend]]
       url = "http://gohugo.io"
       name = "External link"
       weight = 10
 
-
   # Hero section
   [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
     title = "Welcome To My Portfolio!"
     subtitle = "It's nice to meet you"
     buttonText = "Tell me more"
@@ -87,10 +65,9 @@ googleAnalytics = ""
     #center = true
     title = "Hi, I'am Jan"
     subtitle = "An Electrical Engineer from Zurich, Switzerland"
-    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    #description = "
 
     # The picture is stored under 'static/img/about'.
-    # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.about.members]]
       img = "about_jan_400.jpg"
@@ -107,15 +84,15 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
                 \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
-                \n I am currently working as Software Engineer at PI Electronics AG and program with ambitions the hardware with LabVIEW and VHDL.
+                \n I am currently working as **Software Engineer** at PI Electronics AG and program with ambitions the hardware with LabVIEW and VHDL.
                 \n Please enjoy my website."""
 
                 # \n I am currently **looking for a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
 
       social = [
-        ["fa-envelope", "#"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
-        ["fa-github", "https://github.com/hargorin"]  
+        ["fas fa-envelope", "#"],
+        ["fab fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
+        ["fab fa-github", "https://github.com/hargorin"]  
       ]
 
 
@@ -192,7 +169,6 @@ googleAnalytics = ""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/experience'.
-    # Replace them with your own.
     [[params.experience.events]]
       img = "pi_logo.png"
       date = "May 2019 - Today"
@@ -324,25 +300,15 @@ googleAnalytics = ""
     enable = true
     copyright = "Published under the Apache License 2.0."
 
-    # [[params.footer.social]]
-    #   icon = "fa-twitter"
-    #   link = "#"
-    #   title = "Twitter"
-
-    # [[params.footer.social]]
-    #   icon = "fa-facebook"
-    #   link = "#"
-    #   title = "Facebook"
-
     [[params.footer.social]]
-      icon = "fa-linkedin"
+      icon = "fab fa-linkedin"
       link = "https://www.linkedin.com/in/jan-stocker-70317117a/"
       title = "LinkedIn"
 
     [[params.footer.social]]
-      icon = "fa-github"
+      icon = "fab fa-github"
       link = "https://github.com/hargorin"
-      title = "LinkedIn"
+      title = "GitHub"
 
     # [[params.footer.quicklinks]]
     #   text = "Privacy Policy"
