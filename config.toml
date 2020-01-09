@@ -196,7 +196,7 @@ googleAnalytics = ""
     # All images are stored under 'static/img/experience'.
     # Replace them with your own.
     [[params.experience.events]]
-      img = "san_francisco.jpg"
+      img = "pi_logo.png"
       date = "May 2019 - Today"
       title = "Software Engineer"
       description = "I started my first full-time job at PI Electronics AG as Software Engineer. I am well experienced in the interaction between FPGA, Real-Time Processor and Windows Application in LabVIEW. In order to achieve a good throughput I also use VHDL in combination with LabVIEW."
