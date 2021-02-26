@@ -84,7 +84,7 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
                 \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
-                \n I am currently working as **Software Engineer** at PI Electronics AG and program with ambitions the hardware with LabVIEW and VHDL.
+                \n I am currently working as **Embedded Software Engineer** at Mettler Toledo and program with ambitions the firmware of the scales.
                 \n Please enjoy my website."""
 
                 # \n I am currently **looking for a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
@@ -170,8 +170,14 @@ googleAnalytics = ""
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/experience'.
     [[params.experience.events]]
+      img = "mettler_toledo.png"
+      date = "March 2021 - Today"
+      title = "Embedded Software Engineer"
+      description = ""
+
+    [[params.experience.events]]
       img = "pi_logo.png"
-      date = "May 2019 - Today"
+      date = "May 2019 - February 2021"
       title = "Software Engineer"
       description = "I started my first full-time job at PI Electronics AG as Software Engineer. I am well experienced in the interaction between FPGA, Real-Time Processor and Windows Application in LabVIEW. In order to achieve a good throughput I also use VHDL in combination with LabVIEW."
 
