@@ -84,13 +84,13 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
                 \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
-                \n I am currently working as **Software Engineer** at PI Electronics AG and program with ambitions the hardware with LabVIEW and VHDL.
+                \n I am currently working as **Embedded Software Engineer** at Mettler Toledo and programming with ambitions the firmware of scales.
                 \n Please enjoy my website."""
 
                 # \n I am currently **looking for a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
 
       social = [
-        ["fas fa-envelope", "#"],
+        #["fas fa-envelope", "#"],
         ["fab fa-linkedin", "https://www.linkedin.com/in/jan-stocker-70317117a/"],
         ["fab fa-github", "https://github.com/hargorin"]  
       ]
@@ -109,7 +109,7 @@ googleAnalytics = ""
     [[params.skills.row1.list]]
       icon = "fab fa-linux"
       title = "Embedded"
-      description = "Embedded system development and mixed signal processing on DSPs using bare metal C and Real time operation systems on Microchip, ARM and other platforms such as Wandboard or Raspberry Pi."
+      description = "Embedded system development and mixed signal processing on DSPs using bare metal C and real time operation systems (FreeRTOS & SEGGER) on Arm, Microchip, NXP and other platforms such as Wandboard or Raspberry Pi."
       url = "#"
 
     [[params.skills.row1.list]]
@@ -129,13 +129,13 @@ googleAnalytics = ""
     [[params.skills.row1.list]]
       icon = "fas fa-laptop"
       title = "Software"
-      description = "Cross-platform GUI software development in C++, Java and LabVIEW. Furthermore, calculations or GUI development in Matlab."
+      description = "Skills in C# and cross-platform GUI software development in C++, Java and LabVIEW. Furthermore, calculations or GUI development in Matlab."
       url = "#"
 
     [[params.skills.row1.list]]
       icon = "fas fa-code-branch"
       title = "Team"
-      description = "Versatile source code management using Git and SVN for version control."
+      description = "Versatile source code management using Git and SVN for version control. For application lifecycle and quality management experience with Windchill RV&S and HP Quality Center."
       url = "#"
 
     [[params.skills.row1.list]]
@@ -170,10 +170,16 @@ googleAnalytics = ""
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/experience'.
     [[params.experience.events]]
+      img = "mettler_toledo.png"
+      date = "March 2021 - Today"
+      title = "Embedded Software Engineer"
+      description = "I am learning the art of weighing. My responsibility is the firmware of industrial scales which communicate over fieldbus (PROFINET, EtherNet/IP and TCP/IP)."
+
+    [[params.experience.events]]
       img = "pi_logo.png"
-      date = "May 2019 - Today"
+      date = "May 2019 - February 2021"
       title = "Software Engineer"
-      description = "I started my first full-time job at PI Electronics AG as Software Engineer. I am well experienced in the interaction between FPGA, Real-Time Processor and Windows Application in LabVIEW. In order to achieve a good throughput I also use VHDL in combination with LabVIEW."
+      description = "I started my first full-time job at PI Electronics AG as Software Engineer. I am very experienced in combination with FPGA, Real-Time Processor and Windows Application in LabVIEW. In order to increase performance I also use VHDL in combination with LabVIEW."
 
     [[params.experience.events]]
       img = "san_francisco.jpg"
