@@ -84,7 +84,7 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
                 \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
-                \n I am currently working as **Embedded Software Engineer** at Mettler Toledo and programming with ambitions the firmware of scales.
+                \n I am currently working as an **Embedded Software Engineer** at Mettler Toledo and programming with ambitions the firmware of scales.
                 \n Please enjoy my website."""
 
                 # \n I am currently **looking for a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
@@ -109,7 +109,7 @@ googleAnalytics = ""
     [[params.skills.row1.list]]
       icon = "fab fa-linux"
       title = "Embedded"
-      description = "Embedded system development and mixed signal processing on DSPs using bare metal C and real time operation systems (FreeRTOS & SEGGER) on Arm, Microchip, NXP and other platforms such as Wandboard or Raspberry Pi."
+      description = "Embedded system development and mixed signal processing on DSPs using bare metal C and real time operating systems (FreeRTOS & SEGGER) on Arm, Microchip, NXP and other platforms such as Wandboard or Raspberry Pi."
       url = "#"
 
     [[params.skills.row1.list]]
@@ -121,7 +121,7 @@ googleAnalytics = ""
     [[params.skills.row1.list]]
       icon = "fas fa-bolt"
       title = "Electronics"
-      description = "Analog hardware development skills form circuit design to testing and validation until production. Circuit prototyping using Matlab, Spice, Mentor Graphics or Eagle."
+      description = "Analog hardware development skills form circuit design to testing and validation to production. Circuit prototyping using Matlab, Spice, Mentor Graphics or Eagle."
       url = "#"
 
     [[params.skills.row1]]
@@ -149,7 +149,7 @@ googleAnalytics = ""
     [[params.skills.row2.list]]
       icon = "fas fa-sitemap"
       title = "Management"
-      description = "On the board of the local gymnastic club."
+      description = "On the board of the local gymnastics club as actuary and the administration of the gymnastics leaders."
       url = "#"
 
     [[params.skills.row2.list]]
@@ -173,7 +173,7 @@ googleAnalytics = ""
       img = "mettler_toledo.png"
       date = "March 2021 - Today"
       title = "Embedded Software Engineer"
-      description = "I am learning the art of weighing. My responsibility is the firmware of industrial scales which communicate over fieldbus (PROFINET, EtherNet/IP and TCP/IP)."
+      description = "I am learning the art of weighing. My responsibility is the firmware of industrial scales which communicate over Fieldbus (PROFINET, EtherNet/IP and TCP/IP)."
 
     [[params.experience.events]]
       img = "pi_logo.png"
@@ -185,7 +185,7 @@ googleAnalytics = ""
       img = "san_francisco.jpg"
       date = "October 2018 - December 2018"
       title = "Language School"
-      description = "After graduating from FHWN, I went to San Francisco and joined a language School."
+      description = "After graduating from FHWN, I went to San Francisco and joined a language school."
 
     [[params.experience.events]]
       img = "thesis.jpg"
@@ -203,7 +203,7 @@ googleAnalytics = ""
       img = "apprenticeship.jpg"
       date = "August 2011 - August 2015"
       title = "Apprenticeship Electronics Technician"
-      description = "After the compulsory school I started my apprenticeship in electronics at the Paul Scherrer Institute in Villigen. During my apprenticeship, I simultaneously attended the professional baccalaureate."
+      description = "After the compulsory school, I started my apprenticeship in electronics at the Paul Scherrer Institute in Villigen. During my apprenticeship, I simultaneously attended the professional baccalaureate."
 
 
   # Project section
