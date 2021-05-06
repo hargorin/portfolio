@@ -55,7 +55,7 @@ googleAnalytics = ""
   # Hero section
   [params.hero]
     title = "Welcome To My Portfolio!"
-    subtitle = "It's nice to meet you"
+    subtitle = "It is nice to meet you"
     buttonText = "Tell me more"
 
   # About section
@@ -63,8 +63,8 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Hi, I'am Jan"
-    subtitle = "An Electrical Engineer from Zurich, Switzerland"
+    title = "Hi, I am Jan"
+    subtitle = "An electrical engineer from Zurich, Switzerland"
     #description = "
 
     # The picture is stored under 'static/img/about'.
@@ -82,10 +82,9 @@ googleAnalytics = ""
       # ]
 
       # For bio markdown and even multiline strings are available.
-      bio = """Highly motivated and hardworking **Electrical Engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
-                \n In my **free time** the fascination of Electronics motivates me to pursue private **projects**, for example this website.
-                \n I am currently working as an **Embedded Software Engineer** at Mettler Toledo and programming with ambitions the firmware of scales.
-                \n Please enjoy my website."""
+      bio = """Highly motivated and hardworking **electrical engineer** with excellent grades in both key modules and maths seeking for a career in research and development with demanding challenges.
+                \n In my **free time** the fascination of electronics motivates me to pursue private **projects**, for example this website.
+                \n Currently I am working as an **embedded software engineer** at Mettler Toledo and programming the firmware of scales."""
 
                 # \n I am currently **looking for a job** as Embedded Software Engineer with the ambitions in using VHDL or C/C++ to program your hardware. If you are interested, please feel free to contact me.
 
@@ -101,8 +100,9 @@ googleAnalytics = ""
   [params.skills]
     enable = true
     title = "Skills"
-    subtitle1 = "From Professional..."
-    subtitle2 = "...To Social"
+    subtitle1 = "From professional..."
+    subtitle2 = "...to social"
+    #ToDo: bigger spacing between these two titles
 
     [[params.skills.row1]]
 
@@ -149,7 +149,7 @@ googleAnalytics = ""
     [[params.skills.row2.list]]
       icon = "fas fa-sitemap"
       title = "Management"
-      description = "On the board of the local gymnastics club as actuary and the administration of the gymnastics leaders."
+      description = "On the board of the local gymnastics club as actuary and responsible for the administration of the gymnastics leaders."
       url = "#"
 
     [[params.skills.row2.list]]
@@ -164,8 +164,8 @@ googleAnalytics = ""
   [params.experience]
     enable = true
     title = "Experience"
-    subtitle = "Timeline of My Experience"
-    startpoint = "Be part<br>of my<br>Timeline!"
+    #subtitle = "Timeline of My Experience"
+    startpoint = "Be part of my Timeline!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/experience'.
@@ -185,13 +185,13 @@ googleAnalytics = ""
       img = "san_francisco.jpg"
       date = "October 2018 - December 2018"
       title = "Language School"
-      description = "After graduating from FHWN, I went to San Francisco and joined a language school."
+      description = "After graduating from FHWN, I went to San Francisco to improve my english skills"
 
     [[params.experience.events]]
       img = "thesis.jpg"
       date = "September 2015 - September 2018"
       title = "BSc in Electrical Engineering and Information Technology"
-      description = "During my full time studies at FHNW in Brugg-Windisch, I acquired the fundamental knowledge in electronics and could apply the learned in semester projects. Highlights during this time were the **grade 6.0** for the Bachelor’s Thesis and an **average mark of 5.2** over the whole studies."
+      description = "During my full time studies at FHNW in Brugg-Windisch, I acquired the fundamental knowledge in electronics and could apply the learned in semester projects. Highlights during this time was the **grade 6.0** for the Bachelor’s Thesis and the **average mark of 5.2** over the whole studies."
 
     [[params.experience.events]]
       img = "code_on.jpg"
@@ -214,7 +214,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Projects"
-    subtitle = "Selected Projects"
+    #subtitle = "Selected Projects"
 
     [params.projects.modal]
       project = "GitHub"
